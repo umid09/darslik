@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px){
+	.head{
+		header.header{
+			display: flex;
+			flex-direction: column;
+			nav.nav{
+				ul{
+					li{
+						margin: 1px !important;
+						a{
+							font-size: 12px !important;
+						}
+					}
+				}
+			}			
+		}
+
+		section.section{
+			.title{
+				h3{
+					font-size: 35px!important;
+					text-align: center;
+				}
+				h4{
+					font-size: 30px!important;
+					text-align: center;
+				}
+			}
+			.content{
+				p{
+					font-size: 25px !important;
+					text-align: center;
+					big{
+						font-size: 26px !important;
+					}
+				}
+			}
+		}
+	}
+}
